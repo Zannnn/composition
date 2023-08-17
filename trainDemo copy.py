@@ -34,6 +34,8 @@ parser.add_argument("--sample_interval", type=int, default=400, help="interval b
 opt = parser.parse_args()
 print(opt)
 
+
+
 img_shape = (opt.channels, opt.img_sizeH, opt.img_sizeW)
 
 cuda = True if torch.cuda.is_available() else False
