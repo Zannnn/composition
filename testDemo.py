@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import sv_ttk
 from PIL import Image, ImageTk
+import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
@@ -11,7 +12,6 @@ import matplotlib.image as mpimg
 
 
 import os
-import numpy as np
 
 
 
